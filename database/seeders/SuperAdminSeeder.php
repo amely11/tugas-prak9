@@ -17,21 +17,21 @@ class SuperAdminSeeder extends Seeder
         $adminbaak = User::create([
             'name' => 'admin baak',
             'email' => 'adminbaak@roles.id',
-            'password' => Hash::make('12345'),
+            'password' => Hash::make('123456'),
         ]);
         $adminbaak->assignRole('adminbaak');
 
         $adminkeuangan = User::create([
             'name' => 'adminkeuangan',
             'email' => 'adminkeuangan@roles.id',
-            'password' => Hash::make('12345'),
+            'password' => Hash::make('123456'),
         ]);
         $adminkeuangan->assignRole('adminkeuangan');
 
         $mahasiswa = User::create([
             'name' => 'mahasiswa',
             'email' => 'mahasiswa@roles.id',
-            'password' => Hash::make('12345'),
+            'password' => Hash::make('123456'),
         ]);
         $mahasiswa->assignRole('mahasiswa');
 
